@@ -1,0 +1,6 @@
+framework module PyLogger {
+  umbrella header "PyLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

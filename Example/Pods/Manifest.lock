@@ -1,0 +1,16 @@
+PODS:
+  - PyLogger (0.1.0)
+
+DEPENDENCIES:
+  - PyLogger (from `../`)
+
+EXTERNAL SOURCES:
+  PyLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PyLogger: 42d74cddc5223a9ba5c3aa80a33956d496030509
+
+PODFILE CHECKSUM: 1b0825c730ed83c4cf4a0a1eaafb30e4414cd523
+
+COCOAPODS: 1.12.0

@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		064853C153FE7801A533DA07977FE1B3 /* Pods-PyLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C47B1FFE9025AA4AE055CB6AEDC811A /* Pods-PyLogger_Tests-dummy.m */; };
+		29EB9346B7CDB535967A5ED8DFE6AE1C /* Pods-PyLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA190F2936A0080094D269C381B495BC /* Pods-PyLogger_Example-dummy.m */; };
+		304EFEB30B26154E6803887BDC0FD485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		358EBEC3087AD94A538EF9A925C15E94 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DEC2C50F2E7CFCD504D2F994E58E14 /* ReplaceMe.swift */; };
+		579B8B3AB2827306F7F6E42AC4D1B1BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		749FF80EA7FABADC0CD86DCA35258014 /* Pods-PyLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D437B7EFA75DB58AFCC3664E78B37FC8 /* Pods-PyLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C2695FE015BFC84382DB1F1EFDC793 /* Pods-PyLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA754547B9318DCA38E007AC8FC7CBA4 /* Pods-PyLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1112F102C938319B97363C38D89306F /* PyLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECEF0D6832D8A96A08055E1D508A5233 /* PyLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5562F126A93E5241D1E425EFA9B4920 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EDF5AD18B5D95A7B220D3386878176F3 /* PyLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0633CA63D5E933F025A3AAF7532F044 /* PyLogger-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49870777427EA1A789C9EB4B01CD6DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5D157B0205859CF53C06CC444805B9;
+			remoteInfo = "Pods-PyLogger_Example";
+		};
+		FFB3273E3248A96550185A1351420442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7283E9796681DBE0937A53D0037DE44;
+			remoteInfo = PyLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C47B1FFE9025AA4AE055CB6AEDC811A /* Pods-PyLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PyLogger_Tests-dummy.m"; sourceTree = "<group>"; };
+		0EADC9ACB303063901BD3576995F6A2E /* PyLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PyLogger-Info.plist"; sourceTree = "<group>"; };
+		2F8222F41052455368B0F4BF328CF9D7 /* Pods-PyLogger_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PyLogger_Example"; path = Pods_PyLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8D5744AB074AD8B7A49E4724ED1673 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5595B2EFC74D809EDBEA3902325467A5 /* PyLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PyLogger.modulemap; sourceTree = "<group>"; };
+		56649F90A59451378228538E31274F90 /* Pods-PyLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PyLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D181A28321200304C6B2A9DBD975740 /* Pods-PyLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PyLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		607D5172BAA97DFD4A2C0485AEAB406C /* Pods-PyLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PyLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		648B3052B7A22AB4188813EECFD049D3 /* Pods-PyLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PyLogger_Tests.modulemap"; sourceTree = "<group>"; };
+		6CA41C51DB452BEB10E12EFB058B87F8 /* Pods-PyLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PyLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FA2A1C0AC6F98B5BBE34379810D411F /* PyLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PyLogger.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		774C77F08C18AA629FE0037CAAE86DA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7CD2C42291716CF490AD99BE75EE59CA /* Pods-PyLogger_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PyLogger_Example-Info.plist"; sourceTree = "<group>"; };
+		9CDF3F215FECA8FBC7642DB7FD62FA2F /* Pods-PyLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PyLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0633CA63D5E933F025A3AAF7532F044 /* PyLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PyLogger-dummy.m"; sourceTree = "<group>"; };
+		A7A074E7ADFC2BC038DCB6315610ABA4 /* Pods-PyLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PyLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B77072A5757BDCE5C18279F7EF8B3222 /* Pods-PyLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PyLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE4D8D64428B9A9CA163508803403AFC /* PyLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PyLogger-prefix.pch"; sourceTree = "<group>"; };
+		C12B127AF2FA0ECC569D482B8B77178B /* PyLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PyLogger.release.xcconfig; sourceTree = "<group>"; };
+		C9BCD9D293E474D3238E65F696C45BF9 /* Pods-PyLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PyLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CA190F2936A0080094D269C381B495BC /* Pods-PyLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PyLogger_Example-dummy.m"; sourceTree = "<group>"; };
+		D437B7EFA75DB58AFCC3664E78B37FC8 /* Pods-PyLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PyLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D4DEC2C50F2E7CFCD504D2F994E58E14 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PyLogger/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D77A6CCE45B1DABA68C9C51459C3DF8A /* PyLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PyLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DA754547B9318DCA38E007AC8FC7CBA4 /* Pods-PyLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PyLogger_Example-umbrella.h"; sourceTree = "<group>"; };
+		E0E231E7AA01DF4430324F62F7E83F1F /* Pods-PyLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PyLogger_Example.modulemap"; sourceTree = "<group>"; };
+		E3BEF2804BCB5F2A39E0E7CACEF732A3 /* PyLogger */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PyLogger; path = PyLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEF0D6832D8A96A08055E1D508A5233 /* PyLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PyLogger-umbrella.h"; sourceTree = "<group>"; };
+		F142AD53EBC2AA829316F1E0A38BAECB /* Pods-PyLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PyLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F99074ED86079B77EA269574B6772140 /* Pods-PyLogger_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PyLogger_Tests"; path = Pods_PyLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8B7D161726D7F9BB616E59E34A8B3B /* Pods-PyLogger_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PyLogger_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ABC6120F390397DCDE7CDF1461535A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579B8B3AB2827306F7F6E42AC4D1B1BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA80B2C3961AD9F2ED4F3B2CD4DDAE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5562F126A93E5241D1E425EFA9B4920 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2D973D75CC833792031E6ED3308B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304EFEB30B26154E6803887BDC0FD485 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10283790903401CD44FD41A77F077DB4 /* Pods-PyLogger_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				648B3052B7A22AB4188813EECFD049D3 /* Pods-PyLogger_Tests.modulemap */,
+				5D181A28321200304C6B2A9DBD975740 /* Pods-PyLogger_Tests-acknowledgements.markdown */,
+				9CDF3F215FECA8FBC7642DB7FD62FA2F /* Pods-PyLogger_Tests-acknowledgements.plist */,
+				0C47B1FFE9025AA4AE055CB6AEDC811A /* Pods-PyLogger_Tests-dummy.m */,
+				FB8B7D161726D7F9BB616E59E34A8B3B /* Pods-PyLogger_Tests-Info.plist */,
+				D437B7EFA75DB58AFCC3664E78B37FC8 /* Pods-PyLogger_Tests-umbrella.h */,
+				56649F90A59451378228538E31274F90 /* Pods-PyLogger_Tests.debug.xcconfig */,
+				F142AD53EBC2AA829316F1E0A38BAECB /* Pods-PyLogger_Tests.release.xcconfig */,
+			);
+			name = "Pods-PyLogger_Tests";
+			path = "Target Support Files/Pods-PyLogger_Tests";
+			sourceTree = "<group>";
+		};
+		36DF91AC8AF6DE1A84B586FEEB46BCAB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A90B0C132C2223D6D0FA6E1BD648F /* Pods-PyLogger_Example */,
+				10283790903401CD44FD41A77F077DB4 /* Pods-PyLogger_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		643962502B8060527BA24A429F693E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F8222F41052455368B0F4BF328CF9D7 /* Pods-PyLogger_Example */,
+				F99074ED86079B77EA269574B6772140 /* Pods-PyLogger_Tests */,
+				E3BEF2804BCB5F2A39E0E7CACEF732A3 /* PyLogger */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F7B532E9503FEB005ABAB20372DEF14 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				774C77F08C18AA629FE0037CAAE86DA8 /* LICENSE */,
+				D77A6CCE45B1DABA68C9C51459C3DF8A /* PyLogger.podspec */,
+				3A8D5744AB074AD8B7A49E4724ED1673 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BE6179C5FED2661ED002C9D040F69D42 /* PyLogger */ = {
+			isa = PBXGroup;
+			children = (
+				D4DEC2C50F2E7CFCD504D2F994E58E14 /* ReplaceMe.swift */,
+				8F7B532E9503FEB005ABAB20372DEF14 /* Pod */,
+				DF4726FA23845EF8443AD1339A9F653E /* Support Files */,
+			);
+			name = PyLogger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E7B3776F2A907E20542412F5482CF8E8 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				643962502B8060527BA24A429F693E70 /* Products */,
+				36DF91AC8AF6DE1A84B586FEEB46BCAB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF4726FA23845EF8443AD1339A9F653E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5595B2EFC74D809EDBEA3902325467A5 /* PyLogger.modulemap */,
+				A0633CA63D5E933F025A3AAF7532F044 /* PyLogger-dummy.m */,
+				0EADC9ACB303063901BD3576995F6A2E /* PyLogger-Info.plist */,
+				BE4D8D64428B9A9CA163508803403AFC /* PyLogger-prefix.pch */,
+				ECEF0D6832D8A96A08055E1D508A5233 /* PyLogger-umbrella.h */,
+				6FA2A1C0AC6F98B5BBE34379810D411F /* PyLogger.debug.xcconfig */,
+				C12B127AF2FA0ECC569D482B8B77178B /* PyLogger.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PyLogger";
+			sourceTree = "<group>";
+		};
+		E7B3776F2A907E20542412F5482CF8E8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE6179C5FED2661ED002C9D040F69D42 /* PyLogger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EF4A90B0C132C2223D6D0FA6E1BD648F /* Pods-PyLogger_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E0E231E7AA01DF4430324F62F7E83F1F /* Pods-PyLogger_Example.modulemap */,
+				B77072A5757BDCE5C18279F7EF8B3222 /* Pods-PyLogger_Example-acknowledgements.markdown */,
+				6CA41C51DB452BEB10E12EFB058B87F8 /* Pods-PyLogger_Example-acknowledgements.plist */,
+				CA190F2936A0080094D269C381B495BC /* Pods-PyLogger_Example-dummy.m */,
+				A7A074E7ADFC2BC038DCB6315610ABA4 /* Pods-PyLogger_Example-frameworks.sh */,
+				7CD2C42291716CF490AD99BE75EE59CA /* Pods-PyLogger_Example-Info.plist */,
+				DA754547B9318DCA38E007AC8FC7CBA4 /* Pods-PyLogger_Example-umbrella.h */,
+				C9BCD9D293E474D3238E65F696C45BF9 /* Pods-PyLogger_Example.debug.xcconfig */,
+				607D5172BAA97DFD4A2C0485AEAB406C /* Pods-PyLogger_Example.release.xcconfig */,
+			);
+			name = "Pods-PyLogger_Example";
+			path = "Target Support Files/Pods-PyLogger_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F88776EDF333F7B4EB6D8C3C1B83E80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C2695FE015BFC84382DB1F1EFDC793 /* Pods-PyLogger_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65214DB3CAE67F670979839BC84783CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1112F102C938319B97363C38D89306F /* PyLogger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE533899C6695DBCB9C39A1DBE020B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749FF80EA7FABADC0CD86DCA35258014 /* Pods-PyLogger_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AB5D157B0205859CF53C06CC444805B9 /* Pods-PyLogger_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA66CFC09ED8A33B4C9152D9A5F030FE /* Build configuration list for PBXNativeTarget "Pods-PyLogger_Example" */;
+			buildPhases = (
+				5F88776EDF333F7B4EB6D8C3C1B83E80 /* Headers */,
+				BC95D2993FFADA90ED06DD864296AD65 /* Sources */,
+				EA80B2C3961AD9F2ED4F3B2CD4DDAE5C /* Frameworks */,
+				39BAFCE135FC044E97C4F8C9515BB978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				138E68BCD12C5F3B2602CD98F96A1871 /* PBXTargetDependency */,
+			);
+			name = "Pods-PyLogger_Example";
+			productName = Pods_PyLogger_Example;
+			productReference = 2F8222F41052455368B0F4BF328CF9D7 /* Pods-PyLogger_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7283E9796681DBE0937A53D0037DE44 /* PyLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E907A2F66FC65FCB09216363141FAF9 /* Build configuration list for PBXNativeTarget "PyLogger" */;
+			buildPhases = (
+				65214DB3CAE67F670979839BC84783CA /* Headers */,
+				22AD1BFAC4A2DF295571D6D4C10E3D10 /* Sources */,
+				FB2D973D75CC833792031E6ED3308B23 /* Frameworks */,
+				D9E5DAA67F61EA9BE1268A784548DE35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PyLogger;
+			productName = PyLogger;
+			productReference = E3BEF2804BCB5F2A39E0E7CACEF732A3 /* PyLogger */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4A414307A357C4E9D293812E766BD2D /* Pods-PyLogger_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E1213E41236EC01FC9268827869E65 /* Build configuration list for PBXNativeTarget "Pods-PyLogger_Tests" */;
+			buildPhases = (
+				ADE533899C6695DBCB9C39A1DBE020B6 /* Headers */,
+				DEA932EAA868F84B585605BE54F142E6 /* Sources */,
+				0ABC6120F390397DCDE7CDF1461535A8 /* Frameworks */,
+				2D1E3FC54194C9572473D42F31BFBC11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0517C633489605EE2BA53379E2A2A575 /* PBXTargetDependency */,
+			);
+			name = "Pods-PyLogger_Tests";
+			productName = Pods_PyLogger_Tests;
+			productReference = F99074ED86079B77EA269574B6772140 /* Pods-PyLogger_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 643962502B8060527BA24A429F693E70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB5D157B0205859CF53C06CC444805B9 /* Pods-PyLogger_Example */,
+				F4A414307A357C4E9D293812E766BD2D /* Pods-PyLogger_Tests */,
+				C7283E9796681DBE0937A53D0037DE44 /* PyLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D1E3FC54194C9572473D42F31BFBC11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BAFCE135FC044E97C4F8C9515BB978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E5DAA67F61EA9BE1268A784548DE35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22AD1BFAC4A2DF295571D6D4C10E3D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF5AD18B5D95A7B220D3386878176F3 /* PyLogger-dummy.m in Sources */,
+				358EBEC3087AD94A538EF9A925C15E94 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC95D2993FFADA90ED06DD864296AD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EB9346B7CDB535967A5ED8DFE6AE1C /* Pods-PyLogger_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA932EAA868F84B585605BE54F142E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064853C153FE7801A533DA07977FE1B3 /* Pods-PyLogger_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0517C633489605EE2BA53379E2A2A575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PyLogger_Example";
+			target = AB5D157B0205859CF53C06CC444805B9 /* Pods-PyLogger_Example */;
+			targetProxy = 49870777427EA1A789C9EB4B01CD6DF5 /* PBXContainerItemProxy */;
+		};
+		138E68BCD12C5F3B2602CD98F96A1871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PyLogger;
+			target = C7283E9796681DBE0937A53D0037DE44 /* PyLogger */;
+			targetProxy = FFB3273E3248A96550185A1351420442 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		079D695B6CD291C00BF5A438407EBFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9BCD9D293E474D3238E65F696C45BF9 /* Pods-PyLogger_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PyLogger_Example/Pods-PyLogger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PyLogger_Example/Pods-PyLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0D894E3EA7CFAF5367EC73039433ABA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C12B127AF2FA0ECC569D482B8B77178B /* PyLogger.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PyLogger/PyLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PyLogger/PyLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PyLogger/PyLogger.modulemap";
+				PRODUCT_MODULE_NAME = PyLogger;
+				PRODUCT_NAME = PyLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E2C5577DB094A5AB51CD5F768C4D311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA2A1C0AC6F98B5BBE34379810D411F /* PyLogger.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PyLogger/PyLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PyLogger/PyLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PyLogger/PyLogger.modulemap";
+				PRODUCT_MODULE_NAME = PyLogger;
+				PRODUCT_NAME = PyLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B6830C4A4D0748F0FDD57B04A410B094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 607D5172BAA97DFD4A2C0485AEAB406C /* Pods-PyLogger_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PyLogger_Example/Pods-PyLogger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PyLogger_Example/Pods-PyLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EA92579E51D4C1504E364C11E738B31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F142AD53EBC2AA829316F1E0A38BAECB /* Pods-PyLogger_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PyLogger_Tests/Pods-PyLogger_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PyLogger_Tests/Pods-PyLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC1D5C4534D462A4CFA5F9673E2F5CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56649F90A59451378228538E31274F90 /* Pods-PyLogger_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PyLogger_Tests/Pods-PyLogger_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PyLogger_Tests/Pods-PyLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E1213E41236EC01FC9268827869E65 /* Build configuration list for PBXNativeTarget "Pods-PyLogger_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1D5C4534D462A4CFA5F9673E2F5CD6 /* Debug */,
+				EA92579E51D4C1504E364C11E738B31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E907A2F66FC65FCB09216363141FAF9 /* Build configuration list for PBXNativeTarget "PyLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2C5577DB094A5AB51CD5F768C4D311 /* Debug */,
+				0D894E3EA7CFAF5367EC73039433ABA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA66CFC09ED8A33B4C9152D9A5F030FE /* Build configuration list for PBXNativeTarget "Pods-PyLogger_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079D695B6CD291C00BF5A438407EBFC0 /* Debug */,
+				B6830C4A4D0748F0FDD57B04A410B094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
