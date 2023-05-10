@@ -15,6 +15,14 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		60D3203D2A0BA77B009F5FE6 /* LoggingLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D3203C2A0BA77B009F5FE6 /* LoggingLevel.swift */; };
+		60D3203F2A0BA78B009F5FE6 /* LoggingCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D3203E2A0BA78B009F5FE6 /* LoggingCompatible.swift */; };
+		60D320412A0BA794009F5FE6 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D320402A0BA794009F5FE6 /* Logger.swift */; };
+		60D320432A0BA79F009F5FE6 /* CrashlyticsLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D320422A0BA79E009F5FE6 /* CrashlyticsLogger.swift */; };
+		60D320452A0BA7A8009F5FE6 /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D320442A0BA7A8009F5FE6 /* ConsoleLogger.swift */; };
+		60D320472A0BA7FB009F5FE6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D320462A0BA7FB009F5FE6 /* Constants.swift */; };
+		60D320492A0BA921009F5FE6 /* StoredValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D320482A0BA921009F5FE6 /* StoredValues.swift */; };
+		60D3204E2A0BA9D9009F5FE6 /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D3204D2A0BA9D9009F5FE6 /* String+Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		37A0E095BC3D1733709496E9 /* PyLogger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PyLogger.podspec; path = ../PyLogger.podspec; sourceTree = "<group>"; };
-		49F875D6B938191443A0DBA6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		37A0E095BC3D1733709496E9 /* PyLogger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PyLogger.podspec; path = ../PyLogger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		49F875D6B938191443A0DBA6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PyLogger_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PyLogger_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,8 +48,16 @@
 		607FACE51AFB9204008FA782 /* PyLogger_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PyLogger_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		60D3203C2A0BA77B009F5FE6 /* LoggingLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggingLevel.swift; sourceTree = "<group>"; };
+		60D3203E2A0BA78B009F5FE6 /* LoggingCompatible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggingCompatible.swift; sourceTree = "<group>"; };
+		60D320402A0BA794009F5FE6 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		60D320422A0BA79E009F5FE6 /* CrashlyticsLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrashlyticsLogger.swift; sourceTree = "<group>"; };
+		60D320442A0BA7A8009F5FE6 /* ConsoleLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleLogger.swift; sourceTree = "<group>"; };
+		60D320462A0BA7FB009F5FE6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		60D320482A0BA921009F5FE6 /* StoredValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredValues.swift; sourceTree = "<group>"; };
+		60D3204D2A0BA9D9009F5FE6 /* String+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
 		717AC2BC75A4E8921B179F09 /* Pods-PyLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PyLogger_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PyLogger_Tests/Pods-PyLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		80B02B4D7F92FDE10BCEE5CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		80B02B4D7F92FDE10BCEE5CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		81825FFF90EB5B0BF12325D2 /* Pods-PyLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PyLogger_Tests.release.xcconfig"; path = "Target Support Files/Pods-PyLogger_Tests/Pods-PyLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A2436A935AA7AE25EB51E5B8 /* Pods-PyLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PyLogger_Example.release.xcconfig"; path = "Target Support Files/Pods-PyLogger_Example/Pods-PyLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CE7A25A62AE83B3F38C8B569 /* Pods_PyLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PyLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +88,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				60D3203B2A0BA770009F5FE6 /* Logger */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for PyLogger */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -139,6 +156,45 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		60D3203B2A0BA770009F5FE6 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				60D320442A0BA7A8009F5FE6 /* ConsoleLogger.swift */,
+				60D320462A0BA7FB009F5FE6 /* Constants.swift */,
+				60D320402A0BA794009F5FE6 /* Logger.swift */,
+				60D3203E2A0BA78B009F5FE6 /* LoggingCompatible.swift */,
+				60D3203C2A0BA77B009F5FE6 /* LoggingLevel.swift */,
+				60D3204A2A0BA981009F5FE6 /* Extensions */,
+				60D3204B2A0BA98C009F5FE6 /* Persistence */,
+				60D3204C2A0BA994009F5FE6 /* ThirdPartyLoggers */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		60D3204A2A0BA981009F5FE6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				60D3204D2A0BA9D9009F5FE6 /* String+Utils.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		60D3204B2A0BA98C009F5FE6 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				60D320482A0BA921009F5FE6 /* StoredValues.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		60D3204C2A0BA994009F5FE6 /* ThirdPartyLoggers */ = {
+			isa = PBXGroup;
+			children = (
+				60D320422A0BA79E009F5FE6 /* CrashlyticsLogger.swift */,
+			);
+			path = ThirdPartyLoggers;
+			sourceTree = "<group>";
+		};
 		A2506BCD185E76132D91AA6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +212,6 @@
 				717AC2BC75A4E8921B179F09 /* Pods-PyLogger_Tests.debug.xcconfig */,
 				81825FFF90EB5B0BF12325D2 /* Pods-PyLogger_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +282,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,8 +387,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D3204E2A0BA9D9009F5FE6 /* String+Utils.swift in Sources */,
+				60D320452A0BA7A8009F5FE6 /* ConsoleLogger.swift in Sources */,
+				60D320412A0BA794009F5FE6 /* Logger.swift in Sources */,
+				60D3203D2A0BA77B009F5FE6 /* LoggingLevel.swift in Sources */,
+				60D3203F2A0BA78B009F5FE6 /* LoggingCompatible.swift in Sources */,
+				60D320432A0BA79F009F5FE6 /* CrashlyticsLogger.swift in Sources */,
+				60D320492A0BA921009F5FE6 /* StoredValues.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				60D320472A0BA7FB009F5FE6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
